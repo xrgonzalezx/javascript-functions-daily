@@ -105,3 +105,8 @@ console.log(greet("rudy"));
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 // Then, write and example of using the function.
+function madlib(a,b,c,d){
+  return a + " brown " + b + " jumps over the " + c + " quickly to " + d;
+}
+
+console.log(madlib("quick","fox","fence","attack"));
